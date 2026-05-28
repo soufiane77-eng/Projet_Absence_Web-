@@ -1,0 +1,33 @@
+# Laravel
+/vendor/
+.env
+.env.*.local
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+bootstrap/cache/*.php
+composer.phar
+
+# SQLite
+/database/database.sqlite
+/database/*.sqlite
+
+# Node / npm
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Vite
+/public/hot
+/public/build/
+/.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

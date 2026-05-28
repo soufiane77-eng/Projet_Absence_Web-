@@ -30,7 +30,7 @@ Thumbs.db
 
 # Exclusions projet
 /composer.phar
-/database/sqlite.db
+/database/*.sqlite
 /scans/
 /docs/
 /check_*
